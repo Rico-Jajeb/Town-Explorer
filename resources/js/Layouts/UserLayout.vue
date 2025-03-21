@@ -1,19 +1,18 @@
-<script setup>
-</script>
-
 <template>
     <div class="container">
-        <header>
-            <!-- We want header content here -->
-             <h1>Header</h1>
-        </header>
+        <!-- dinhi liwat is an header -->
+        <Header />
+            <!-- Amo ini nganhi it main layout -->            
             <main>
-                <!-- We want main content here -->
                  <slot />
             </main>
-        <footer>
-            <!-- We want footer content here -->
-             <H1>Footer</H1>
-        </footer>
+        <!-- dinhi liwat is an footer -->       
+        <Footer />
     </div>
 </template>
+
+
+<script setup>
+    import Footer from '@/Pages/User/Footer/Index.vue';
+    import Header from '@/Pages/User/Header/Index.vue';
+</script>
