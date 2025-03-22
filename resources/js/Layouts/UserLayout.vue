@@ -1,14 +1,15 @@
 <template>
-    <div class="container">
+    <div class="">
         <!-- dinhi liwat is an header -->
-        <Header />
+        <Header /> 
             <!-- Amo ini nganhi it main layout -->            
-            <main>
+            <main >
                  <slot />
             </main>
         <!-- dinhi liwat is an footer -->       
         <Footer />
     </div>
+    
 </template>
 
 
@@ -16,3 +17,4 @@
     import Footer from '@/Pages/User/Footer/Index.vue';
     import Header from '@/Pages/User/Header/Index.vue';
 </script>
+
