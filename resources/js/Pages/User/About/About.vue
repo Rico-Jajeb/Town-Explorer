@@ -1,8 +1,10 @@
 <template>
-    <UserLayout class="bg-red-300 m-3 rounded-xl">
-        <section class="max-w-7xl bg-yellow-500 m-auto">
-            <h1>About us</h1>
-        </section>
+    <UserLayout>
+        <main class="bg-black p-3 rounded-xl h-[97vh] m-3 pt-20  ">
+                <section class="bg-yellow-300 max-w-7xl m-auto">
+                    <h1>About Us</h1>                   
+                </section>
+        </main>
     </UserLayout>
     
 </template>

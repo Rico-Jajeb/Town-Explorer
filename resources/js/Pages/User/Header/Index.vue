@@ -1,5 +1,5 @@
 <template >
-    <header class="h-20 flex gap-4 justify-between bg-blue-300 max-w-7xl m-auto">
+    <header class="h-20 flex gap-4 justify-between bg-blue-300 max-w-7xl m-auto fixed top-0 right-0 left-0 mt-3">
         <!-- Logo or Site Name -->
         <div class="text-lg font-bold text-gray-800 dark:text-white">
           <Link href="/" >MySite</Link>   

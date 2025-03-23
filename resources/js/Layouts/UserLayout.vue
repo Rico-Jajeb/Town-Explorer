@@ -1,15 +1,18 @@
 <template>
-    <div class="">
+   
+        <section class="">
         <!-- dinhi liwat is an header -->
-        <Header /> 
+        <Header class="" /> 
             <!-- Amo ini nganhi it main layout -->            
-            <main >
+            <main class="  min-h-screen">
                  <slot />
             </main>
-        <!-- dinhi liwat is an footer -->       
-        <Footer />
-    </div>
-    
+        </section>
+
+        <Footer class="" />    
+        <!-- dinhi liwat is an footer -->             
+
+
 </template>
 
 

@@ -1,24 +1,14 @@
 <template>
     <UserLayout>
-        <h1>Main Page</h1>
-        <div>
-            <div class="card flex justify-center">
-                <FloatLabel>
-                    <InputText id="username" v-model="value" />
-                    <label for="username">Username</label>
-                </FloatLabel>
-            </div>
-        </div>
+        <main class="bg-red-300 p-3 rounded-xl h-[97vh] m-3 pt-20  ">
+                <section class="bg-yellow-300 max-w-7xl m-auto">
+                    <h1>Main Page</h1>                   
+                </section>
+        </main>
     </UserLayout>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import UserLayout from '@/Layouts/UserLayout.vue';
-
-
-
-// Register data
-const value = ref("");
+    import UserLayout from '@/Layouts/UserLayout.vue';
 
 </script>
