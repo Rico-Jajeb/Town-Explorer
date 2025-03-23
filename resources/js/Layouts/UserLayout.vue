@@ -1,18 +1,12 @@
 <template>
-   
-        <section class="">
         <!-- dinhi liwat is an header -->
         <Header class="" /> 
             <!-- Amo ini nganhi it main layout -->            
             <main class="  min-h-screen">
                  <slot />
             </main>
-        </section>
-
         <Footer class="" />    
         <!-- dinhi liwat is an footer -->             
-
-
 </template>
 
 
