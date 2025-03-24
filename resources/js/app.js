@@ -10,6 +10,12 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
 
+
+
+import 'primeicons/primeicons.css';
+
+
+
 // Tas adi an kanan text box ini gin global para matawag bis ngain
 import FloatLabel from 'primevue/floatlabel';
 import InputText from 'primevue/inputtext';
