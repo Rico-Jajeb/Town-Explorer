@@ -5,6 +5,7 @@
             <!-- This is for the Dashboard content -->
             <section class="bg-red-400 basis-[100vw] ">
                 <h1>section</h1>
+                
                 <slot />
             </section>
         </main>
@@ -13,6 +14,7 @@
 
 <script setup>
     import { ref } from 'vue';
+    import { Head, Link } from '@inertiajs/vue3';
     import DashboardAside from '@/Pages/Admin/Dashboard/DashboardAside.vue';
 
 

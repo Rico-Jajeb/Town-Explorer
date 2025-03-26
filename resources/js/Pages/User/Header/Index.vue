@@ -9,11 +9,11 @@
             <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
                 <!-- Desktop Navigation -->
                 <nav class="hidden md:flex space-x-6 ">
-                  <Link href="About" >About</Link>
-                  <Link href="About" >Services</Link>
-                  <Link href="About" >Tourist Spot</Link>
-                  <Link href="About" >Blogs</Link>
-                  <Link href="About" >Contact</Link> 
+                  <Link href="about" >About</Link>
+                  <Link href="about" >Services</Link>
+                  <Link href="about" >Tourist Spot</Link>
+                  <Link href="about" >Blogs</Link>
+                  <Link href="about" >Contact</Link> 
                 </nav> 
                 <!-- This is the navigation button for login and register            -->
                 <nav class="ml-20">
@@ -39,11 +39,11 @@
             <!-- Mobile Navigation Menu -->
             <div v-show="isMenuOpen" class="absolute top-16 left-0 w-full bg-white dark:bg-gray-900 shadow-lg md:hidden transition-transform duration-300 ease-in-out">
               <nav class="flex flex-col space-y-4 p-4">
-                <Link href="About" >About</Link>
-                  <Link href="About" >Services</Link>
-                  <Link href="About" >Tourist Spot</Link>
-                  <Link href="About" >Blogs</Link>
-                  <Link href="About" >Contact</Link> 
+                <Link href="about" >About</Link>
+                  <Link href="about" >Services</Link>
+                  <Link href="about" >Tourist Spot</Link>
+                  <Link href="about" >Blogs</Link>
+                  <Link href="about" >Contact</Link> 
               </nav>
             </div>
 

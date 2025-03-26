@@ -1,7 +1,3 @@
-<script setup>
-import AdminLayout from '@/Layouts/AdminLayout.vue';
-</script>
-
 <template>
     <AdminLayout title="Dashboard">
         <template #header>
@@ -13,9 +9,15 @@ import AdminLayout from '@/Layouts/AdminLayout.vue';
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                 <h1>THIS IS THE DASHBORD IN ADMIN</h1>
+                 <h1>THIS IS THE DASHBORD IN ADMIN </h1>
                 </div>
             </div>
         </div>
     </AdminLayout>
 </template>
+
+<script setup>
+    import { ref } from 'vue';
+    import { Head, Link } from '@inertiajs/vue3';
+    import AdminLayout from '@/Layouts/AdminLayout.vue';
+</script>

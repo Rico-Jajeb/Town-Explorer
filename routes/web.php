@@ -9,6 +9,7 @@ use App\Http\Controllers\User\HomeController;
 
 
 use App\Http\Controllers\Admin\Dashboard\DashboardController;
+use App\Http\Controllers\Admin\Settings\SettingsController;
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
@@ -60,10 +61,15 @@ Route::middleware([
 
 
 //------ User SIDE ROUTE ------//
-Route::get('Home', [HomeController::class, 'index']);
-Route::get('About', [AboutController::class, 'index']);
+Route::get('home', [HomeController::class, 'index']);
+Route::get('about', [AboutController::class, 'index']);
 
 
 
 //------ Admin SIDE ROUTE ------//
-Route::get('UserPage', [DashboardController::class, 'UserPage'])->name('UserPage'); //TEMPORARY LA INI PARA LA MADAGMIT PAG KADTO USER HOME PAGE 
+Route::get('userPage', [DashboardController::class, 'UserPage'])->name('user.page'); //TEMPORARY LA INI PARA LA MADAGMIT PAG KADTO USER HOME PAGE 
+
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+
+Route::get('settings', [SettingsController::class, 'index'])->name('general.settings');
