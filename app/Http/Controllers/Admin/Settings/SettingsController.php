@@ -11,4 +11,8 @@ class SettingsController extends Controller
     public function index(){
         return Inertia::render('Admin/Settings/GeneralSettings');
     }
+
+    public function showHomeSettings(){
+        return Inertia::render('Admin/Settings/HomeSettings');
+    }
 }

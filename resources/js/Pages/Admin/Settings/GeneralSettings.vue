@@ -1,7 +1,7 @@
 <template>
     <AdminLayout title="General Settings">
         <main class="py-12 px-4 sm:px-6">
-            <section class="max-w-7xl  mx-auto  sm:px-6 lg:px-8 pb-4 bg-white overflow-hidden shadow-xl rounded-lg">
+            <section class="max-w-7xl  mx-auto  sm:px-6 lg:px-8 pb-8 bg-white overflow-hidden shadow-xl rounded-lg">
                <form action="">
                 <header class="px-4 pt-4 mt-8 mb-8">
                     <h1 class="text-2xl font-bold text-gray-900  dark:text-white mb-2" >General settings</h1>
@@ -36,7 +36,10 @@
 
                     
                 </section>
-                <button type="submit" severity="secondary" label="Submit" class="text-lg font-medium text-white mt-8 bg-blue-500 rounded-md px-5 py-3"><i class="pi pi-save"></i> Save Changes</button>
+                <div class="px-4">
+                    <button type="submit" severity="secondary" label="Submit" class="text-lg font-medium text-white mt-10  bg-blue-500 rounded-md px-5 py-3"><i class="pi pi-save"></i> Save Changes</button>                    
+                </div>
+
                 </form>
             </section>
         </main>

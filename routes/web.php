@@ -73,3 +73,4 @@ Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard'
 
 
 Route::get('settings', [SettingsController::class, 'index'])->name('general.settings');
+Route::get('home.settings', [SettingsController::class, 'showHomeSettings'])->name('home.settings');

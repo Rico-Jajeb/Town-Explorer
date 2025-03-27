@@ -171,6 +171,12 @@
                                             <span class="font-medium">Settings</span>
                                         </Link>
                                     </li>
+                                    <li>
+                                        <Link :href="route('home.settings')" v-ripple class="flex items-center cursor-pointer p-4 rounded text-surface-700 hover:bg-surface-100 dark:text-surface-0 dark:hover:bg-surface-800 duration-150 transition-colors p-ripple">
+                                            <i class="pi pi-cog mr-2"></i>
+                                            <span class="font-medium">Home Settings</span>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
