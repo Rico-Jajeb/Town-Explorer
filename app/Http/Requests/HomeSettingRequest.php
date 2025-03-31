@@ -4,14 +4,14 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class SettingRequest extends FormRequest
+class HomeSettingRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -21,12 +21,9 @@ class SettingRequest extends FormRequest
      */
     public function rules(): array
     {
-        //amo liwat ini an code para pag validate han data tikang ha form, kun na follow ba
         return [
-            'sysName' => 'required|string|max:255',
-            'sysLogo' => 'required|string|max:255',
-            'slogan' => 'required|string|max:355',
-            'sysFavicon' => 'required|string|max:355',
+            //
+            
         ];
     }
 }

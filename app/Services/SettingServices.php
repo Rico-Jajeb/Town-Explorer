@@ -2,21 +2,20 @@
 
 namespace App\Services;
 
-use App\Models\SettingsModel;
+use App\Models\SettingsModel; //tapos adi an moddel
 
 class SettingServices
 {
 
     public function create(array $data)
     {
-
+        //amo ini an code para pag insert han data tikang ha form tikadto database table
         return SettingsModel::create([
-            'system_name' => $data['name'],
-            'system_tagline' => $data['description'],
-            'system_logo' => $data['img'],
-            'system_favicon' => $data['links'],
+            'system_name' => $data['sysName'],
+            'system_tagline' => $data['slogan'],
+            'system_logo' => $data['sysLogo'],
+            'system_favicon' => $data['sysFavicon'],
         ]);
-        //Amo ini an code para han pag insert ngadto ha database table 'Project'
     }
 
 }

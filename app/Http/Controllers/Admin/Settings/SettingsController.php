@@ -21,6 +21,7 @@ class SettingsController extends Controller
         $this->SettingServices = $SettingServices;
     }
     
+
     public function index(){
         return Inertia::render('Admin/Settings/GeneralSettings');
     }
@@ -33,6 +34,9 @@ class SettingsController extends Controller
         $validated = $request->validated();
         $this->SettingServices->create($validated); //bali an code para han create aadto ha services
         return redirect()->back()->with('success', "");
-    
+    }
+
+    public function updateHomeSettings(){
+
     }
 }
